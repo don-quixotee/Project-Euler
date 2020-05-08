@@ -1,0 +1,10 @@
+num = range(1,101)
+sumt =0
+sumsquare = 0
+for i in num :
+    sumt = sumt + i
+
+    sumsquare = sumsquare + (i ** 2)
+    
+    
+print((sumt ** 2)- sumsquare)
